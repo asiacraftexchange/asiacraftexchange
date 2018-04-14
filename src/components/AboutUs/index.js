@@ -22,7 +22,6 @@ const StyledImage = styled.img`
     
     @media screen and (max-width: 992px) {
         position: relative;
-        left: 50px;
     }
 `
 
