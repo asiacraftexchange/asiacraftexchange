@@ -9,9 +9,19 @@ import logo from '../../assets/shared/images/ACX_v2.svg';
 import styled from 'styled-components';
 
 const StyledImage = styled.img`
-    width: 300px;
-    margin: 30px auto;
-    display: block;
+  width: 300px;
+  margin: 30px auto;
+  display: block;
+  animation: fadeInOnScreen 4s;
+  
+  @keyframes fadeInOnScreen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 `
 
 const Header = () => (
